@@ -16,5 +16,10 @@ namespace WindowsFormsApp5
         {
             InitializeComponent();
         }
+
+        private void btRestart_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
